@@ -27,7 +27,7 @@ button:focus {
 }
 
 a {
-    color: #b571b5
+    color: #323b5a 
 }
 
 a:focus,
@@ -132,7 +132,7 @@ p {
     -ms-transition: all .4s ease-out 0s;
     -o-transition: all .4s ease-out 0s;
     transition: all .4s ease-out 0s;
-    background-color: #b571b5
+    background-color: #323b5a 
 }
 
 @media (max-width:767px) {
@@ -144,7 +144,7 @@ p {
 }
 
 .main-btn:hover {
-    background-color: #bd86bd;
+    background-color: #323b5a ;
     color: #fff;
 }
 
@@ -169,7 +169,7 @@ p {
 .section_title .sub_title {
     font-size: 20px;
     font-weight: 600;
-    color: #b571b5
+    color: #323b5a 
 }
 
 @media (max-width:767px) {
@@ -208,7 +208,7 @@ p {
 
 .section_title .line li {
     display: inline-block;
-    background-color: #b571b5;
+    background-color: #323b5a ;
     border-radius: 50px;
     height: 3px
 }
@@ -301,7 +301,7 @@ p {
     width: 200%;
     height: 100%;
     border-style: solid;
-    border-color: #b571b5 #b571b5 #eceff8;
+    border-color: #323b5a  #323b5a  #eceff8;
     border-radius: 50%;
     border-width: 6px
 }
@@ -853,7 +853,7 @@ p {
 .navbar-nav .nav-item .sub-menu li a.active,
 .navbar-nav .nav-item .sub-menu li a:hover {
     padding-left: 25px;
-    color: #b571b5
+    color: #323b5a 
 }
 
 .navbar-nav .sub-nav-toggler {
@@ -910,7 +910,7 @@ p {
 
 .sticky .navbar-nav .nav-item.active>a,
 .sticky .navbar-nav .nav-item:hover>a {
-    color: #b571b5
+    color: #323b5a 
 }
 
 .header_hero {
@@ -973,7 +973,7 @@ p {
 }
 
 .header_social li a:hover {
-    color: #b571b5
+    color: #323b5a 
 }
 
 .header_hero_shape {
@@ -990,7 +990,7 @@ p {
     content: '';
     width: 1000%;
     height: 100%;
-    background-color: #b571b5;
+    background-color: #323b5a ;
     -webkit-transform: skewX(20deg);
     -moz-transform: skewX(20deg);
     -ms-transform: skewX(20deg);
@@ -1003,7 +1003,7 @@ p {
 .header_hero_content .header_sub_title {
     font-size: 30px;
     font-weight: 600;
-    color: #b571b5;
+    color: #323b5a ;
     letter-spacing: 4px
 }
 
@@ -1068,8 +1068,8 @@ p {
 .about_image .about_shape {
     width: 404px;
     height: 525px;
-    border-left: 15px solid #b571b5;
-    border-bottom: 15px solid #b571b5;
+    border-left: 15px solid #323b5a ;
+    border-bottom: 15px solid #323b5a ;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1095,7 +1095,7 @@ p {
     content: '';
     width: 15px;
     height: 85%;
-    background-color: #b571b5;
+    background-color: #323b5a ;
     bottom: 0;
     right: 0
 }
@@ -1105,7 +1105,7 @@ p {
     content: '';
     width: 104%;
     height: 15px;
-    background-color: #b571b5;
+    background-color: #323b5a ;
     top: 36px;
     right: -2px;
     -webkit-transform: rotate(11deg);
@@ -1175,7 +1175,7 @@ p {
     left: 0;
     height: 9px;
     border-radius: 5px;
-    background-color: #b571b5;
+    background-color: #323b5a ;
     -webkit-transition: all 2s ease-out 0s;
     -moz-transition: all 2s ease-out 0s;
     -ms-transition: all 2s ease-out 0s;
@@ -1190,7 +1190,7 @@ p {
     width: 7px;
     height: 18px;
     background-color: #fff;
-    border: 2px solid #b571b5;
+    border: 2px solid #323b5a ;
     top: -5px;
     right: 0
 }
@@ -1225,7 +1225,7 @@ p {
     line-height: 80px;
     text-align: center;
     font-size: 46px;
-    background-color: #b571b5;
+    background-color: #323b5a ;
     color: #fff;
     border-radius: 25px;
     border-bottom-right-radius: 0;
@@ -1276,12 +1276,12 @@ p {
 }
 
 .single_service:hover {
-    background-color: #b571b5
+    background-color: #323b5a 
 }
 
 .single_service:hover .service_icon i {
     background-color: #fff;
-    color: #b571b5
+    color: #323b5a 
 }
 
 .single_service:hover .service_content .service_title a {
@@ -1321,7 +1321,7 @@ p {
 }
 
 .single_project .project_content .project_title a:hover {
-    color: #b571b5
+    color: #323b5a 
 }
 
 .single_project .project_content p {
@@ -1354,7 +1354,7 @@ p {
 }
 
 .project_active .slick-arrow:hover i {
-    color: #b571b5
+    color: #323b5a 
 }
 
 .pricing_area {
@@ -1387,7 +1387,7 @@ p {
 .single_price .sticker {
     display: block;
     font-size: 13px;
-    background-color: #b571b5;
+    background-color: #323b5a ;
     line-height: 30px;
     color: #fff;
     text-align: center;
@@ -1422,7 +1422,7 @@ p {
 .single_price .price_header .price {
     font-size: 35px;
     line-height: 40px;
-    color: #b571b5;
+    color: #323b5a ;
     font-weight: 600;
     margin-top: 15px
 }
@@ -1549,8 +1549,8 @@ p {
 }
 
 .testimonial_active .slick-dots li.slick-active button {
-    background-color: #b571b5;
-    border-color: #b571b5
+    background-color: #323b5a ;
+    border-color: #323b5a 
 }
 
 .slick-initialized .slick-slide {
@@ -1577,7 +1577,7 @@ p {
 .single_counter .counter_content .count {
     font-size: 35px;
     font-weight: 600;
-    color: #b571b5;
+    color: #323b5a ;
     font-family: "Montserrat", sans-serif
 }
 
@@ -1621,7 +1621,7 @@ p {
     top: 0;
     width: 2px;
     height: 100%;
-    background-color: #b571b5
+    background-color: #323b5a 
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -1676,7 +1676,7 @@ p {
 }
 
 .single_experience .experience_title p {
-    color: #b571b5;
+    color: #323b5a ;
     font-size: 16px;
     font-weight: 600;
     font-family: "Open Sans", sans-serif;
@@ -1725,10 +1725,10 @@ p {
     height: 55px;
     line-height: 51px;
     text-align: center;
-    border: 2px solid #b571b5;
+    border: 2px solid #323b5a ;
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
-    color: #b571b5;
+    color: #323b5a ;
     border-radius: 50%;
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
@@ -1777,12 +1777,12 @@ p {
 }
 
 .single_experience:hover .experience_number span {
-    background-color: #b571b5;
+    background-color: #323b5a ;
     color: #fff
 }
 
 .single_experience:hover .experience_content {
-    background-color: #b571b5
+    background-color: #323b5a 
 }
 
 .single_experience:hover .experience_content p {
@@ -1810,7 +1810,7 @@ p {
 }
 
 .call_to_action_box {
-    background-color: #b571b5;
+    background-color: #323b5a ;
     padding: 30px 60px 60px;
     border-radius: 10px;
     position: relative;
@@ -1907,7 +1907,7 @@ p {
 }
 
 .call_to_action_box .call_to_action_btn .main-btn {
-    color: #b571b5;
+    color: #323b5a ;
     background-color: #fff
 }
 
@@ -1941,7 +1941,7 @@ p {
 }
 
 .footer_content .footer_social li a:hover {
-    color: #b571b5
+    color: #323b5a 
 }
 
 .footer_content .email {
