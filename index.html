@@ -1,0 +1,867 @@
+<!doctype html>
+<html class=no-js lang=en>
+
+<head>
+    <meta charset=utf-8>
+    <style>
+        .img-center{
+            width: 100% !important;
+            margin: auto !important;
+        }
+    </style>
+
+    <title>Hiba's Portfolio</title>
+    <meta name=description content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="stylesheet" href="lineicons.css"> -->
+
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- <link rel="stylesheet" href="./icons/lineicons.css"> -->
+
+    <link rel="shortcut icon" href="assets/images/xfavicon.png.pagespeed.ic.GHGWr2JR4s.webp" type="image/png">
+
+    <link rel=stylesheet
+        href="assets/css/A.animate.css+slick.css+lineicons.css+bootstrap.min.css+default.css,Mcc.w-QmTdwWk2.css.pagespeed.cf.feBWxFu8ZT.css">
+
+
+
+
+
+    <link rel=stylesheet href="assets/css/A.style.css.pagespeed.cf.DSBlYF1kDi.css">
+    <script data-pagespeed-no-defer>
+        (function () {
+            function f(a, b, d) {
+                if (a.addEventListener) a.addEventListener(b, d, !1);
+                else if (a.attachEvent) a.attachEvent("on" + b, d);
+                else {
+                    var c = a["on" + b];
+                    a["on" + b] = function () {
+                        d.call(this);
+                        c && c.call(this)
+                    }
+                }
+            };
+            window.pagespeed = window.pagespeed || {};
+            var g = window.pagespeed;
+
+            function k(a) {
+                this.g = [];
+                this.f = 0;
+                this.h = !1;
+                this.j = a;
+                this.i = null;
+                this.l = 0;
+                this.b = !1;
+                this.a = 0
+            }
+
+            function l(a, b) {
+                var d = b.getAttribute("data-pagespeed-lazy-position");
+                if (d) return parseInt(d, 0);
+                var d = b.offsetTop,
+                    c = b.offsetParent;
+                c && (d += l(a, c));
+                d = Math.max(d, 0);
+                b.setAttribute("data-pagespeed-lazy-position", d);
+                return d
+            }
+
+            function m(a, b) {
+                var d, c, e;
+                if (!a.b && (0 == b.offsetHeight || 0 == b.offsetWidth)) return !1;
+                a: if (b.currentStyle) c = b.currentStyle.position;
+                else {
+                    if (document.defaultView && document.defaultView.getComputedStyle && (c = document.defaultView.getComputedStyle(b, null))) {
+                        c = c.getPropertyValue("position");
+                        break a
+                    }
+                    c = b.style && b.style.position ? b.style.position : ""
+                }
+                if ("relative" == c) return !0;
+                e = 0;
+                "number" == typeof window.pageYOffset ? e = window.pageYOffset : document.body && document.body.scrollTop ? e = document.body.scrollTop : document.documentElement &&
+                    document.documentElement.scrollTop && (e = document.documentElement.scrollTop);
+                d = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+                c = e;
+                e += d;
+                var h = b.getBoundingClientRect();
+                h ? (e = h.top - d, c = h.bottom) : (h = l(a, b), d = h + b.offsetHeight, e = h - e, c = d - c);
+                return e <= a.f && 0 <= c + a.f
+            }
+            k.prototype.m = function (a) {
+                p(a);
+                var b = this;
+                window.setTimeout(function () {
+                    var d = a.getAttribute("data-pagespeed-lazy-src");
+                    if (d)
+                        if ((b.h || m(b, a)) && -1 != a.src.indexOf(b.j)) {
+                            var c = a.parentNode,
+                                e = a.nextSibling;
+                            c && c.removeChild(a);
+                            a.c && (a.getAttribute = a.c);
+                            a.removeAttribute("onload");
+                            a.tagName && "IMG" == a.tagName && g.CriticalImages && f(a, "load", function () {
+                                g.CriticalImages.checkImageForCriticality(this);
+                                b.b && (b.a--, b.a || g.CriticalImages.checkCriticalImages())
+                            });
+                            a.removeAttribute("data-pagespeed-lazy-src");
+                            a.removeAttribute("data-pagespeed-lazy-replaced-functions");
+                            c && c.insertBefore(a, e);
+                            if (c = a.getAttribute("data-pagespeed-lazy-srcset")) a.srcset = c, a.removeAttribute("data-pagespeed-lazy-srcset");
+                            a.src = d
+                        } else b.g.push(a)
+                }, 0)
+            };
+            k.prototype.loadIfVisibleAndMaybeBeacon = k.prototype.m;
+            k.prototype.s = function () {
+                this.h = !0;
+                q(this)
+            };
+            k.prototype.loadAllImages = k.prototype.s;
+
+            function q(a) {
+                var b = a.g,
+                    d = b.length;
+                a.g = [];
+                for (var c = 0; c < d; ++c) a.m(b[c])
+            }
+
+            function t(a, b) {
+                return a.a ? null != a.a(b) : null != a.getAttribute(b)
+            }
+            k.prototype.u = function () {
+                for (var a = document.getElementsByTagName("img"), b = 0, d; d = a[b]; b++) t(d, "data-pagespeed-lazy-src") && p(d)
+            };
+            k.prototype.overrideAttributeFunctions = k.prototype.u;
+
+            function p(a) {
+                t(a, "data-pagespeed-lazy-replaced-functions") || (a.c = a.getAttribute, a.getAttribute = function (a) {
+                    "src" == a.toLowerCase() && t(this, "data-pagespeed-lazy-src") && (a = "data-pagespeed-lazy-src");
+                    return this.c(a)
+                }, a.setAttribute("data-pagespeed-lazy-replaced-functions", "1"))
+            }
+            g.o = function (a, b) {
+                function d() {
+                    if (!(c.b && a || c.i)) {
+                        var b = 200;
+                        200 < (new Date).getTime() - c.l && (b = 0);
+                        c.i = window.setTimeout(function () {
+                            c.l = (new Date).getTime();
+                            q(c);
+                            c.i = null
+                        }, b)
+                    }
+                }
+                var c = new k(b);
+                g.lazyLoadImages = c;
+                f(window, "load", function () {
+                    c.b = !0;
+                    c.h = a;
+                    c.f = 200;
+                    if (g.CriticalImages) {
+                        for (var b = 0, d = document.getElementsByTagName("img"), r = 0, n; n = d[r]; r++) - 1 != n.src.indexOf(c.j) && t(n, "data-pagespeed-lazy-src") && b++;
+                        c.a = b;
+                        c.a || g.CriticalImages.checkCriticalImages()
+                    }
+                    q(c)
+                });
+                b.indexOf("data") && ((new Image).src = b);
+                f(window,
+                    "scroll", d);
+                f(window, "resize", d)
+            };
+            g.lazyLoadInit = g.o;
+        })();
+
+        pagespeed.lazyLoadInit(true, "/pagespeed_static/1.JiBnMqyl6S.gif");
+    </script>
+</head>
+
+<body><noscript>
+        <meta HTTP-EQUIV="refresh" content="0;url='https://preview.uideck.com/items/freelancer/?PageSpeed=noscript'" />
+        <style>
+            <!--table,div,span,font,p{display:none} 
+            -->
+        </style>
+        <div style="display:block">Please click <a
+                href="https://preview.uideck.com/items/freelancer/?PageSpeed=noscript">here</a> if you are not
+            redirected within a few seconds.</div>
+    </noscript>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+    <div class=preloader>
+        <div class=loader>
+            <div class=ytp-spinner>
+                <div class=ytp-spinner-container>
+                    <div class=ytp-spinner-rotator>
+                        <div class=ytp-spinner-left>
+                            <div class=ytp-spinner-circle></div>
+                        </div>
+                        <div class=ytp-spinner-right>
+                            <div class=ytp-spinner-circle></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class=header_area>
+        <div class=header_navbar>
+            <div class=container>
+                <div class=row>
+                    <div class=col-lg-12>
+                        <nav class="navbar navbar-expand-lg">
+                            <a class=navbar-brand href=index.html>
+                                <script data-pagespeed-no-defer>
+                                    (function () {
+                                        for (var g = "function" == typeof Object.defineProperties ? Object.defineProperty : function (b, c, a) {
+                                            if (a.get || a.set) throw new TypeError("ES3 does not support getters and setters.");
+                                            b != Array.prototype && b != Object.prototype && (b[c] = a.value)
+                                        }, h = "undefined" != typeof window && window === this ? this : "undefined" != typeof global && null != global ? global : this, k = ["String", "prototype", "repeat"], l = 0; l < k.length - 1; l++) {
+                                            var m = k[l];
+                                            m in h || (h[m] = {});
+                                            h = h[m]
+                                        }
+                                        var n = k[k.length - 1],
+                                            p = h[n],
+                                            q = p ? p : function (b) {
+                                                var c;
+                                                if (null == this) throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");
+                                                c = this + "";
+                                                if (0 > b || 1342177279 < b) throw new RangeError("Invalid count value");
+                                                b |= 0;
+                                                for (var a = ""; b;)
+                                                    if (b & 1 && (a += c), b >>>= 1) c += c;
+                                                return a
+                                            };
+                                        q != p && null != q && g(h, n, {
+                                            configurable: !0,
+                                            writable: !0,
+                                            value: q
+                                        });
+                                        var t = this;
+
+                                        function u(b, c) {
+                                            var a = b.split("."),
+                                                d = t;
+                                            a[0] in d || !d.execScript || d.execScript("var " + a[0]);
+                                            for (var e; a.length && (e = a.shift());) a.length || void 0 === c ? d[e] ? d = d[e] : d = d[e] = {} : d[e] = c
+                                        };
+
+                                        function v(b) {
+                                            var c = b.length;
+                                            if (0 < c) {
+                                                for (var a = Array(c), d = 0; d < c; d++) a[d] = b[d];
+                                                return a
+                                            }
+                                            return []
+                                        };
+
+                                        function w(b) {
+                                            var c = window;
+                                            if (c.addEventListener) c.addEventListener("load", b, !1);
+                                            else if (c.attachEvent) c.attachEvent("onload", b);
+                                            else {
+                                                var a = c.onload;
+                                                c.onload = function () {
+                                                    b.call(this);
+                                                    a && a.call(this)
+                                                }
+                                            }
+                                        };
+                                        var x;
+
+                                        function y(b, c, a, d, e) {
+                                            this.h = b;
+                                            this.j = c;
+                                            this.l = a;
+                                            this.f = e;
+                                            this.g = {
+                                                height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight,
+                                                width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+                                            };
+                                            this.i = d;
+                                            this.b = {};
+                                            this.a = [];
+                                            this.c = {}
+                                        }
+
+                                        function z(b, c) {
+                                            var a, d, e = c.getAttribute("data-pagespeed-url-hash");
+                                            if (a = e && !(e in b.c))
+                                                if (0 >= c.offsetWidth && 0 >= c.offsetHeight) a = !1;
+                                                else {
+                                                    d = c.getBoundingClientRect();
+                                                    var f = document.body;
+                                                    a = d.top + ("pageYOffset" in window ? window.pageYOffset : (document.documentElement || f.parentNode || f).scrollTop);
+                                                    d = d.left + ("pageXOffset" in window ? window.pageXOffset : (document.documentElement || f.parentNode || f).scrollLeft);
+                                                    f = a.toString() + "," + d;
+                                                    b.b.hasOwnProperty(f) ? a = !1 : (b.b[f] = !0, a = a <= b.g.height && d <= b.g.width)
+                                                }
+                                            a && (b.a.push(e), b.c[e] = !0)
+                                        }
+                                        y.prototype.checkImageForCriticality = function (b) {
+                                            b.getBoundingClientRect && z(this, b)
+                                        };
+                                        u("pagespeed.CriticalImages.checkImageForCriticality", function (b) {
+                                            x.checkImageForCriticality(b)
+                                        });
+                                        u("pagespeed.CriticalImages.checkCriticalImages", function () {
+                                            A(x)
+                                        });
+
+                                        function A(b) {
+                                            b.b = {};
+                                            for (var c = ["IMG", "INPUT"], a = [], d = 0; d < c.length; ++d) a = a.concat(v(document.getElementsByTagName(c[d])));
+                                            if (a.length && a[0].getBoundingClientRect) {
+                                                for (d = 0; c = a[d]; ++d) z(b, c);
+                                                a = "oh=" + b.l;
+                                                b.f && (a += "&n=" + b.f);
+                                                if (c = !!b.a.length)
+                                                    for (a += "&ci=" + encodeURIComponent(b.a[0]), d = 1; d < b.a.length; ++d) {
+                                                        var e = "," + encodeURIComponent(b.a[d]);
+                                                        131072 >= a.length + e.length && (a += e)
+                                                    }
+                                                b.i && (e = "&rd=" + encodeURIComponent(JSON.stringify(B())), 131072 >= a.length + e.length && (a += e), c = !0);
+                                                C = a;
+                                                if (c) {
+                                                    d = b.h;
+                                                    b = b.j;
+                                                    var f;
+                                                    if (window.XMLHttpRequest) f = new XMLHttpRequest;
+                                                    else if (window.ActiveXObject) try {
+                                                        f = new ActiveXObject("Msxml2.XMLHTTP")
+                                                    } catch (r) {
+                                                        try {
+                                                            f = new ActiveXObject("Microsoft.XMLHTTP")
+                                                        } catch (D) { }
+                                                    }
+                                                    f && (f.open("POST", d + (-1 == d.indexOf("?") ? "?" : "&") + "url=" + encodeURIComponent(b)), f.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), f.send(a))
+                                                }
+                                            }
+                                        }
+
+                                        function B() {
+                                            var b = {},
+                                                c;
+                                            c = document.getElementsByTagName("IMG");
+                                            if (!c.length) return {};
+                                            var a = c[0];
+                                            if (!("naturalWidth" in a && "naturalHeight" in a)) return {};
+                                            for (var d = 0; a = c[d]; ++d) {
+                                                var e = a.getAttribute("data-pagespeed-url-hash");
+                                                e && (!(e in b) && 0 < a.width && 0 < a.height && 0 < a.naturalWidth && 0 < a.naturalHeight || e in b && a.width >= b[e].o && a.height >= b[e].m) && (b[e] = {
+                                                    rw: a.width,
+                                                    rh: a.height,
+                                                    ow: a.naturalWidth,
+                                                    oh: a.naturalHeight
+                                                })
+                                            }
+                                            return b
+                                        }
+                                        var C = "";
+                                        u("pagespeed.CriticalImages.getBeaconData", function () {
+                                            return C
+                                        });
+                                        u("pagespeed.CriticalImages.Run", function (b, c, a, d, e, f) {
+                                            var r = new y(b, c, a, e, f);
+                                            x = r;
+                                            d && w(function () {
+                                                window.setTimeout(function () {
+                                                    A(r)
+                                                }, 0)
+                                            })
+                                        });
+                                    })();
+                                    pagespeed.CriticalImages.Run('/ngx_pagespeed_beacon', 'https://preview.uideck.com/items/freelancer/', 'RCCUltOb55', false, false, 'A_1ECi26PCE');
+                                </script>
+                                <li style="list-style-type: none;">
+                                    <a href="#home"
+                                        style="font-family: 'Montserrat', sans-serif; font-size: 1.8rem; font-weight: bold;"><span
+                                            style="color: #000000;"> Hiba's </span> Portfolio</a>
+                                </li>
+                            </a>
+                            <button class=navbar-toggler type=button data-toggle=collapse
+                                data-target="#navbarSupportedContent" aria-controls=navbarSupportedContent
+                                aria-expanded=false aria-label="Toggle navigation">
+                                <span class=toggler-icon></span>
+                                <span class=toggler-icon></span>
+                                <span class=toggler-icon></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id=navbarSupportedContent>
+                                <ul id=nav class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class=page-scroll href="#home">Home <span></span></a>
+                                    </li>
+
+                                    <li class=nav-item>
+                                        <a class=page-scroll href="#about">About<span></span></a>
+                                    </li>
+
+
+                                    <li class=nav-item>
+                                        <a class=page-scroll href="#pricing">Education<span></span></a>
+                                    </li>
+
+                                    <li class=nav-item>
+                                        <a class=page-scroll href="#work">Experience<span></span></a>
+                                    </li>
+                                    <li class=nav-item>
+                                        <a class=page-scroll href="#services">References<span></span></a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id=home class=header_hero>
+
+            <div class=container>
+                <div class="row align-items-center justify-content-center justify-content-lg-between">
+                    <div class=col-lg-6>
+                        <div class="header_hero_content mt-45">
+                            <h5 class="header_sub_title wow fadeInUp" data-wow-duration=1.3s data-wow-delay=0.2s>Hello
+                                I'm</h5>
+                            <h2 class="header_title wow fadeInUp" data-wow-duration=1.3s data-wow-delay=0.5s>HIBA
+                                SULTAN</h2>
+                            <span class="wow fadeInUp" data-wow-duration=1.3s data-wow-delay=0.8s>Content Review Analyst | Trust and Safety | Customer Service
+                            </span>
+                            <p class="wow fadeInUp" data-wow-duration=1.3s data-wow-delay=1.1s>An Experienced and skilled professional in customer service, who is responsible for analyzing and reviewing user content on an online platform. By applying skills and producing quality to ensure customer satisfaction. Great Strength of mine is that I enjoyed exploring and researching along the way in my work, and sharing knowledge with others in work as professionals that help others to growth together as a team.
+                            </p>
+                            <a href="#contact" class="main-btn wow fadeInUp" data-wow-duration=1.3s
+                                data-wow-delay=1.4s>Hire Me</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-7">
+                        <div class="header_hero_image mt-50 wow fadeInRightBig"  data-wow-duration=1.3s
+                            data-wow-delay=1.8s>
+                            <div class="img-center" style=" display: flex; align-items: center; justify-content: center;">
+                                
+                                <script data-pagespeed-no-defer>
+                                    window['pagespeed'] = window['pagespeed'] || {};
+                                    var pagespeed = window['pagespeed'];
+                                    pagespeed.switchToHighResAndMaybeBeacon = function (elem) {
+                                        setTimeout(function () {
+                                            elem.onload = null;
+                                            var srcset = elem.getAttribute('data-pagespeed-high-res-srcset');
+                                            if (srcset) {
+                                                elem.srcset = srcset;
+                                            }
+                                            elem.src = elem.getAttribute('data-pagespeed-high-res-src');
+                                            if (pagespeed.CriticalImages) {
+                                                elem.onload = pagespeed.CriticalImages.checkImageForCriticality(elem);
+                                            }
+                                        }, 0);
+                                    };
+                                </script><img data-pagespeed-high-res-src="assets/images/minn.jpg" alt=hero
+                                    style="width:350px; border: 8px solid #954c95; border-radius: 17px; "
+                                    data-pagespeed-url-hash=355161075
+                                    src="data:image/webp;base64,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"
+                                    onload="pagespeed.switchToHighResAndMaybeBeacon(this);"
+                                    onerror="this.onerror=null;pagespeed.switchToHighResAndMaybeBeacon(this);">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_hero_shape d-none d-lg-block"></div>
+        </div>
+    </section>
+
+
+    <section id=about class="about_area pt-70 pb-120">
+        <div class=container>
+            <div class="row align-items-center justify-content-center">
+
+                <div class=col-lg-12>
+                    <div class="about_content mt-45 wow fadeInLeftBig" data-wow-duration=1.3s data-wow-delay=0.5s>
+                        <div class=section_title>
+                            <h5 class=sub_title>About</h5>
+                            <h3 class=main_title>Why You Hire Me?</h3>
+                            <ul class=line>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <p style="line-height: 2rem;">With 4+ years of experience in content review, trust & safety, and customer service, I specialize in analyzing online content, ensuring compliance, and maintaining platform safety. My strong analytical skills, problem-solving mindset, and attention to detail help improve review processes and enhance user experience. I am committed to delivering quality results and working collaboratively to create a secure digital environment. I am eager to learn more about your company and the position you are hiring for. I am available for an interview at your earliest convenience. Thank you for your time and consideration.</p>
+                        <div class="about_skills pt-15">
+                            <div class="skill_item mt-20">
+                                <div class=skill_header>
+                                    <h6 style="display: inline;" class=skill_title><span class="weight">Content Review Analyst:
+                                        </span> Content Moderation, Policy Compliance, Online Safety </h6>
+
+
+                                </div>
+
+                            </div>
+                            <div class="skill_item mt-20">
+                                <div class=skill_header>
+                                    <h6 style="display: inline;" class=skill_title><span class="weight">Trust and Safety:
+                                        </span> Risk Assessment, Decision-Making, Problem-Solving </h6>
+
+                                </div>
+
+                            </div>
+                            <div class="skill_item mt-20">
+                                <div class=skill_header>
+                                    <h6 style="display: inline;" class=skill_title><span class="weight">Customer Service:
+                                        </span> User Support, Communication, Conflict Resolution</h6>
+
+                                </div>
+                                <div class=skill_bar>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section id=pricing class="pricing_area gray-bg pt-115 pb-50">
+
+        <div class=container>
+            <div class="row justify-content-center">
+                <div class=col-lg-6>
+                    <div class="section_title text-center pb-30">
+                        <h5 class=sub_title></h5>
+                        <h3 class=main_title>Education</h3>
+                        <ul class=line>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+
+                <div class="col-lg-5 col-md-8 col-sm-10">
+                    <div class="single_price mt-30 wow fadeInUpBig" data-wow-duration=1.3s data-wow-delay=0.5s>
+                        <div class=price_header>
+                            <h4 class=price_title>SEGi University & Colleges</h4>
+                            <span class=price>
+                                Foundation in commerce, Accounting</span>
+                                <p>CGPA: 3.7</p>
+                           
+                        </div>
+
+                        <div class=price_btn>
+                            <h6 class=main-btn>Jan 2016 - Dec 2016</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-8 col-sm-10">
+                    <div class="single_price mt-30 wow fadeInUpBig" data-wow-duration=1.3s data-wow-delay=0.5s>
+                        <div class=price_header>
+                            <h4 class=price_title>SEGi University & Colleges</h4>
+                            <span class=price>
+                                Bachelor's degree, Accounting and Finance</span>
+                            <p>CGPA: 3.5</p>
+                        </div>
+
+                        <div class=price_btn>
+                            <a href="#" class=main-btn>Feb 2017 - Feb 2021</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id=work class="work_experience_area pt-115">
+        <div class=container>
+            <div class="row justify-content-center">
+                <div class=col-lg-6>
+                    <div class="section_title text-center pb-30">
+                        <h5 class=sub_title>Experience</h5>
+                        <h3 class=main_title>Work Experience</h3>
+                        <ul class=line>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class=work_experience>
+                <div class=row>
+                    <div class=col-lg-12>
+                        <div class="single_experience d-lg-flex align-items-center flex-wrap wow fadeIn"
+                            data-wow-duration=1.3s data-wow-delay=0.2s>
+                            <div class="experience_title order-last">
+                                <h3 class=title>Content Moderation Associate
+                                    </h3>
+                                <p>EVO Business Consulting</p>
+                                <span class=date>Apr 2021 - Present · 4 yrs</span>
+                            </div>
+                            <div class=experience_number>
+                                <span>01</span>
+                            </div>
+                            <div class="experience_content order-first">
+                                <p>
+                                    Review online videos /content/legal notice and LinkedIn Headline
+Content Review Associate with 2+ years experiencin Malaysia | Top Performer | Fluent in English, Urdu, Punjabi | Accenture | Bachelor's in Accounting & Finance | SEGi University
+<br><br>
+<i> LinkedIn Summary Profile: </i> <br><br>
+I am a Content Review Associate with 2+ years of experience in the tech industry. I am skilled in Microsoft Office 365, teambuilding, analytical thinking, customer service, interpersonal skills, people orientation, attention to detail, multitasking, cultural understanding, and review processes. I am also fluent in English, Urdu, and Punjabi.
+<br><br>
+In my previous role at EVO Business Consulting Sdn Bhd, I was responsible for responding to user review inquiries with high quality, speed, empathy, and accuracy. I also investigated and resolved issues regarding content reported for account support and safety. I was consistently praised for my ability to remain neutral and review work as defined by policies and procedures, while keeping personal bias and opinions aside. I was also awarded Monthly Top Performer Recognition for Salsa Project Q4 2021 and Q1 2022 in achieving KPI requirements.
+<br><br>
+I am a highly motivated and results-oriented individual with a strong work ethic. I am also a team player and I am always willing to go the extra mile. I am confident that I have the skills and experience to be a valuable asset to any team.
+<br><br>
+I am currently looking for a new opportunity where I can use my skills and experience to make a positive impact. I am open to new challenges and I am always looking for ways to learn and grow. I am confident that I can be a valuable asset to any company.
+<br><br>
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+
+            </div>
+        </div>
+    </section>
+
+   
+
+
+    <section id=services class="testimonial_area pt-115 pb-120">
+        <div class=container>
+            <div class="row justify-content-center">
+                <div class=col-lg-6>
+                    <div class="section_title text-center pb-30">
+                        <h5 class=sub_title></h5>
+                        <h3 class=main_title>References</h3>
+                        <ul class=line>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row testimonial_active">
+                <div class=col-lg-6>
+                    <div class="single_testimonial d-sm-flex mt-30">
+
+                        <div class="testimonial_content media-body">
+                            <h4 class=author_name>Nur Shahida Afiza</h4>
+                            <span class=sub_title>HR Executive at La Calisto Sdn Bhd
+                            </span>
+                            <br><br>
+                            <h4><a href="tel:60 17-221 0571">+60 17-221 0571 </a></h4>
+                            <ul class=review>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class=col-lg-6>
+                    <div class="single_testimonial d-sm-flex mt-30">
+
+                        <div class="testimonial_content media-body">
+                            <h4 class=author_name>Farrah Wahidah
+                            </h4>
+                            <span class=sub_title>Account & Finance Manager at La Calisto Sdn Bhd
+                            </span>
+                            <br><br>
+                            <h4><a href="tel:+60 10-463 3445">+60 10-463 3445
+                            </a></h4>
+                            <ul class=review>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class=col-lg-6>
+                    <div class="single_testimonial d-sm-flex mt-30">
+
+                        <div class="testimonial_content media-body">
+                            <h4 class=author_name>Tan Lim Wee Hoe
+                            </h4>
+                            <span class=sub_title>Chief Financial Officer at La Calisto Sdn Bhd
+                            </span>
+                            <br><br>
+                            <h4><a href="tel:+6012-2843348
+                                ">+6012-2843348
+                            </a></h4>
+                            <ul class=review>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+                                <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section id=contact class=call_to_action_area>
+        <div class=container>
+            <div class="call_to_action_wrapper wow fadeIn" data-wow-duration=1.3s data-wow-delay=0.5s>
+                <div class=row>
+                    <div class=col-lg-12>
+                        <div class="call_to_action_box d-md-flex justify-content-between align-items-center">
+                            <div class=call_to_action_content>
+                                <h3 class=action_title>Looking for support in streamlining your accounts receivable
+                                    processes?</h3>
+                                <ul class=line>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                                <p>"I'm excited to discuss how my skills and experience can contribute value to your team."</p>
+                            </div>
+                            <div style="text-align: center;" class=call_to_action_btn>
+                                <span><a class="main-btn"
+                                        href="https://mail.google.com/mail/?view=cm&fs=1&to=arminah.j@gmail.com&su=Hello&body="
+                                        target="_blank">
+                                        Hiba.j@gmail.com
+                                    </a></span>
+
+                                <a class="main-btn" style="margin-top: 1rem;"
+                                    href="https://wa.me/+60147837?text=Hello%2C%20I%27d%20like%20to%20know%20more."
+                                    target="_blank">
+                                    Message on WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id=footer class="footer_area gray-bg pt-115 pb-120">
+        <div class=container>
+            <div class=row>
+                <div class=col-lg-12>
+                    <div class="footer_content text-center">
+
+                        <ul class=footer_menu>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#pricing">Education</a></li>
+                            <li><a href="#work">Experience</a></li>
+                            <li><a href="#services">References</a></li>
+                           
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="text/javascript" data-pagespeed-no-defer>
+        pagespeed.lazyLoadImages.overrideAttributeFunctions();
+    </script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js.pagespeed.jm.29OAZzvhfX.js"></script>
+    <script
+        src="assets/js/vendor,_modernizr-3.7.1.min.js+popper.min.js+bootstrap.min.js.pagespeed.jc.Cr9hLWz-S6.js"></script>
+    <script>
+        eval(mod_pagespeed_o5_3EsFaYA);
+    </script>
+
+    <script>
+        eval(mod_pagespeed_Yq3rd870qr);
+    </script>
+    <script>
+        eval(mod_pagespeed_o23G4OyrlM);
+    </script>
+
+    <script
+        src="assets/js/slick.min.js+ajax-contact.js+jquery.appear.min.js+waypoints.min.js+jquery.counterup.min.js+jquery.easing.min.js+scrolling-nav.js+wow.min.js+main.js.pagespeed.jc.50YN5Dsw2G.js"></script>
+    <script>
+        eval(mod_pagespeed_uIhKS4vltD);
+    </script>
+
+    <script>
+        eval(mod_pagespeed_Tj2NoL6n$K);
+    </script>
+
+    <script>
+        eval(mod_pagespeed_HcrXhel2F4);
+    </script>
+
+    <script>
+        eval(mod_pagespeed_0yMKMNDcrN);
+    </script>
+    <script>
+        eval(mod_pagespeed_H_Z1$hva5h);
+    </script>
+
+    <script>
+        eval(mod_pagespeed_xkKoGffKwc);
+    </script>
+    <script>
+        eval(mod_pagespeed_f3p046_G91);
+    </script>
+
+    <script>
+        eval(mod_pagespeed_KL04Jq9RbQ);
+    </script>
+
+    <script>
+        eval(mod_pagespeed_egeUrTXRXo);
+    </script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816"
+        integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw=="
+        data-cf-beacon='{"rayId":"7d09ea22c9163f49","version":"2023.4.0","r":1,"token":"9a6015d415bb4773a0bff22543062d3b","si":100}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
